@@ -1,3 +1,6 @@
+import jdk.internal.jline.TerminalFactory.configure
+import jdk.tools.jlink.resources.plugins
+
 plugins {
   `java-library`
   idea
