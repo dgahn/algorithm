@@ -1,0 +1,54 @@
+:author: dgahn
+:email: <dgahn@icloud.com>
+:revision: 2019.38.0
+:icons: font
+:main-title: 알고리즘
+:sub-title: Leet Code & Programmers
+:description: 이 레파지터리는 Leet Code와 프로그래머스의 문제 풀이를 저장합니다.
+:git_service: https://github.com/dgahn/
+:project_name: algorithm
+
+
+= {main-title}: {sub-title}
+
+image:https://img.shields.io/badge/version-{revision}-blue.svg[link="./CHANGELOG",title="version"]
+
+
+== What is the Project
+
+{description}
+
+
+== Building
+
+. Clone a copy of the repository:
++
+[subs="attributes"]
+----
+$ git clone {git_service}{project_name}.git
+----
++
+
+. Change to the project directory:
++
+[subs="attributes"]
+----
+$ cd {project_name}
+----
++
+
+
+== Usage
+
+. Test the project:
++
+[subs="attributes"]
+----
+$ ./gradlew test
+----
++
+
+
+== Contributors
+
+* {author} {email}
