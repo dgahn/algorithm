@@ -1,4 +1,4 @@
-package io.github.dgahn.algorithm.programmers.truckpassingbyabridge;
+package io.github.dgahn.algorithm.programmers.level2.truckpassingbyabridge;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

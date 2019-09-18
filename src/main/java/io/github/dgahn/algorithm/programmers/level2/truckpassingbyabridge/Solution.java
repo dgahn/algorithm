@@ -1,6 +1,5 @@
-package io.github.dgahn.algorithm.programmers.truckpassingbyabridge;
+package io.github.dgahn.algorithm.programmers.level2.truckpassingbyabridge;
 
-import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue;
 

@@ -1,4 +1,4 @@
-package io.github.dgahn.algorithm.programmers.featuredevelopment;
+package io.github.dgahn.algorithm.programmers.level2.featuredevelopment;
 
 import java.util.Arrays;
 

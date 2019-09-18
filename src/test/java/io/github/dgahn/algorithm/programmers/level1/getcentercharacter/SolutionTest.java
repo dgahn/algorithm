@@ -1,4 +1,4 @@
-package io.github.dgahn.algorithm.programmers.getcentercharacter;
+package io.github.dgahn.algorithm.programmers.level1.getcentercharacter;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
