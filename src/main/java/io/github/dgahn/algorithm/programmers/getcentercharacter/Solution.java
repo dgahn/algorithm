@@ -1,4 +1,4 @@
-package io.github.dgahn.algorithm.getcentercharacter;
+package io.github.dgahn.algorithm.programmers.getcentercharacter;
 
 class Solution {
 
