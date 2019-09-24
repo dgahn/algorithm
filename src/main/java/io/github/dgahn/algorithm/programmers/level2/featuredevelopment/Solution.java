@@ -9,17 +9,23 @@ class Solution {
     int[] answer = new int[100];
 
     int j = 0;
-    for (int i = 1; ; i++) {
-      if (100 - progresses[j] < i * speeds[j]) {
-        j++;
-        answer[i--]++;
-        if (j >= progresses.length) {
-          break;
+    try {
+      for (int i = 1; ; i++) {
+        if (100 - progresses[j] < i * speeds[j]) {
+          j++;
+          answer[i--]++;
+          if (j >= progresses.length) {
+            break;
+          }
         }
       }
+    } catch (Exception e) {
+      System.err.println("");
     }
 
-    return Arrays.stream(answer).filter(i -> i!=0).toArray();
+    return Arrays.stream(answer)
+                 .filter(i -> i != 0)
+                 .toArray();
   }
 
 }
